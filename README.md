@@ -1,4 +1,11 @@
-## Documentación Práctica 1 MyS1
+## Documentación Práctica 1 MyS1 - *Grupo No. 14*
+### Integrantes:
+* Walter Manolo Martinez Mateo    - 201213212
+* Luis Alfredo Vejo Mendoza       - 201212527
+* Gabriel Orlando Ajsivinac Xicay - 201213010
+* María Julissa García Morán      - 201602805
+* Diego Abraham Robles Meza       - 201901429
+
 ## Variables:
 Las variables declaradas para implementar en el modelo son:
 - **CompraBomba1 - CompraBomba6**: Monitorean las compras realizadas en cada bomba de gasolina.
