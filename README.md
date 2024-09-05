@@ -8,7 +8,7 @@ Las variables declaradas para implementar en el modelo son:
 - **Contador1**: Cuenta el número total de vehículos atendidos.
 
 ## Procesos
-### <span style="color:blue">BombaN3 - BombaN6: Son los procesos que se utilizan en las bombas de Autoservicio.</span>
+### *BombaN3 - BombaN6: Son los procesos que se utilizan en las bombas de Autoservicio.*
 **Flujo del proceso**:
 * En la primera asignación se usa la función Random.Discrete
 ```
@@ -18,7 +18,7 @@ Dicha función asigna un valor aleatorio basado en las probabilidades de uso de 
 * En la segunda asignación se acumula el valor de "CompraBomba" en la variable "TotalBomba", lo cual representa el total acumulado de combustible
   vendido.
 
-- **BombaSerCom1 - BombaSerCom2**: Son los procesos que se utilizan en las bombas de Servicio Completo.
+### *BombaSerCom1 - BombaSerCom2: Son los procesos que se utilizan en las bombas de Servicio Completo.*
 **Flujo del proceso**:
 * En la primera asignación se usa la función Random.Discrete
 ```
@@ -28,7 +28,7 @@ Dicha función asigna un valor aleatorio basado en las probabilidades de uso de 
 * En la segunda asignación se acumula el valor de "CompraBomba" en la variable "TotalBomba", lo cual representa el total acumulado de combustible
   vendido.
 
-- **TiempoBom1 - TiempoBom6**: Son los procesos que se utilizan para el tiempo de servicio de cada bomba.
+### *TiempoBom1 - TiempoBom6: Son los procesos que se utilizan para el tiempo de servicio de cada bomba.*
 **Flujo del proceso**:
 * En SetRow se selecciona una fila aleatoria de la "Tabla Abastecimiento" de acuerdo a la columna de probabilidad
 ```
