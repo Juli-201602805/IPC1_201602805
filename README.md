@@ -1,5 +1,5 @@
 ## Documentación Práctica 1 MyS1
-### Variables:
+## Variables:
 Las variables declaradas para implementar en el modelo son:
 - **CompraBomba1 - CompraBomba6**: Monitorean las compras realizadas en cada bomba de gasolina.
 - **TotalBomba1 - TotalBomba6**: Registra el total de ventas realizadas en cada estación.
@@ -7,8 +7,8 @@ Las variables declaradas para implementar en el modelo son:
 - **TiempoB1 - TiempoB6**: Mide el tiempo de operación de cada bomba.
 - **Contador1**: Cuenta el número total de vehículos atendidos.
 
-### Procesos
-- **BombaN3 - BombaN6**: Son los procesos que se utilizan en las bombas de Autoservicio.<br>
+## Procesos
+### **BombaN3 - BombaN6**: Son los procesos que se utilizan en las bombas de Autoservicio.<br>
 **Flujo del proceso**:
 * En la primera asignación se usa la función Random.Discrete
 ```
