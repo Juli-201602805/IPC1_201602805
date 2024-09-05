@@ -8,7 +8,7 @@ Las variables declaradas para implementar en el modelo son:
 - **Contador1**: Cuenta el número total de vehículos atendidos.
 
 ## Procesos
-### <span style="color:green"> **BombaN3 - BombaN6**: Son los procesos que se utilizan en las bombas de Autoservicio.</span>
+### <span style="color🟢"> **BombaN3 - BombaN6**: Son los procesos que se utilizan en las bombas de Autoservicio.</span>
 **Flujo del proceso**:
 * En la primera asignación se usa la función Random.Discrete
 ```
