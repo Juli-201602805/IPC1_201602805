@@ -15,7 +15,7 @@ El modelo también incluye métricas relacionadas con las bombas, como costos e 
 Random.Exponential(10)
 ```
 Genera un valor aleatoriamente a partir de una *distribución exponencial* con una media de 10 minutos. Es utilizada comúnmente para modelar el tiempo entre eventos en un proceso de Poisson, en este caso la llegada de vehículos a una estación de servicio, ya que los eventos ocurren de manera aleatoria e independiente unos de otros.
-* **Estación de Lavado:** Para el lavado de vehículos la *distribución* utilizada es:
+* **Estación de Lavado:** Para el lavado de vehículos la *distribució* utilizada es:
 ```
 Random.Normal( 8, 1.5)
 ```
@@ -35,6 +35,11 @@ Esta distribución modela el tiempo que tarda el proceso de secado con los sigui
 Random.Uniform( 5 , 9 )
 ```
 La distribución uniforme es adecuada para este tipo de operación porque no hay un valor más probable dentro del rango. Esto implica que el tiempo del proceso de encerado puede ser de cualquier duración entre los 5 y 9 minutos, sin que ninguno de esos tiempos sea más común que otro.
+* **Estación de Pago:** Para la estación de pago, en cada ventanilla se utiliza la *distribución*:
+```
+Random.Poisson(6)
+```
+Esta distribución es comúnmente utilizada para modelar el número de eventos que ocurren en un intervalo de tiempo fijo. En este caso se utiliza para modelar el tiempo que tarda un empleado en procesar el pago de un cliente. Con una media de 6 minutos, se estima que, en promedio, cada cliente toma 6 minutos en ser atendido, lo que incluye entregar la ficha, realizar el pago y recibir el ticket de salida.
 
 ## Variables:
 Las variables declaradas para implementar en el modelo son:
