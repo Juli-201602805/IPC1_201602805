@@ -15,7 +15,7 @@ El modelo también incluye métricas relacionadas con las bombas, como costos e 
 Random.Exponential(10)
 ```
 Genera un valor aleatoriamente a partir de una *distribución exponencial* con una media de 10 minutos. Es utilizada comúnmente para modelar el tiempo entre eventos en un proceso de Poisson, en este caso la llegada de vehículos a una estación de servicio, ya que los eventos ocurren de manera aleatoria e independiente unos de otros.
-* **Estación de Lavado:** Para el lavado de vehículos la *distribució* utilizada es:
+* **Estación de Lavado:** Para el lavado de vehículos la *distribución* utilizada es:
 ```
 Random.Normal( 8, 1.5)
 ```
