@@ -10,12 +10,12 @@
 El *Modelo 1* nos muestra un sistema de 6 estaciones de combustible, 2 de Servicio Completo representadas con el nombre de *BombaSC* y 4 de AutoServicio con el nombre<b>
 *Bomba* numeradas de la 3 a la 6, cada una de las bombas distribuye tres tipos de combustible: Diesel, Regular y Super. La distribución de clientes se basa en estudios que indican que el 25% de los vehículos utilizan Diesel, el 48% utilizan Regular, y el 52% Super. Los vehículos pasan por una serie de nodos, cada uno asignado a un función específica, como carga de combustible o mantenimiento. Se inicia con las estaciones de combustible, luego aparecen otras estaciones como *Lavado*, *Secado*, *Inspección*, *Encerado* y *Ventanillas de pago*, las cuales proporcionan servicios adicionales a los usuarios. Cuando un cliente llega a la estación, tiene un 75% de probabilidad de comprar combustible y un 25% de utilizar el servicio de limpieza. De los que abastecen combustible, un 40% pasa también al servicio de limpieza, mientras que el 33% de los que inician con limpieza luego compran combustible.<b>
 El modelo también incluye métricas relacionadas con las bombas, como costos e ingresos generados. Estas métricas son esenciales para evaluar la eficiencia del sistema.
-#### **Llegada de vehículos:** La llegada de vehículos está distribuida exponencialmente con una media de 10 minutos, la *distribución* utilizada es:
+* **Llegada de vehículos:** La llegada de vehículos está distribuida exponencialmente con una media de 10 minutos, la *distribución* utilizada es:
 ```
 Random.Exponential(10)
 ```
 Genera un valor aleatoriamente a partir de una *distribución exponencial* con una media de 10 minutos. Es utilizada comúnmente para modelar el tiempo entre eventos en un proceso de Poisson, en este caso la llegada de vehículos a una estación de servicio, ya que los eventos ocurren de manera aleatoria e independiente unos de otros.
-**Estación de Lavado:** Para el lavado de vehículos la *distribución* utilizada es:
+* **Estación de Lavado:** Para el lavado de vehículos la *distribución* utilizada es:
 ```
 Random.Normal( 8, 1.5)
 ```
